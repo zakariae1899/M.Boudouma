@@ -133,12 +133,13 @@ footer {
 }
 
 .pink {
-  background-color: #e83e8c;
+  background-color: white;
 }
 
-.pink:hover {
-  background-color: #c82373;
+.gray {
+  background-color: gray;
 }
+
 
 .blue {
   background-color: #007bff;
@@ -146,6 +147,12 @@ footer {
 
 .blue:hover {
   background-color: #0056b3;
+}
+.black {
+  background-color: #000;
+}
+.light-blue {
+  background-color: #00d9ff;
 }
 
 /* Profile image styling */
