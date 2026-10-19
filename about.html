@@ -1,24 +1,169 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>À propos de ZAKARIAE BOUDOUMA</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos | Zakariae Boudouma</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1120;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background: #111c33;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+        }
+        header h1 {
+            color: #28a745;
+            font-size: 28px;
+        }
+        nav {
+            margin-top: 15px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #28a745;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .about-card {
+            width: 100%;
+            max-width: 750px;
+            background: #111c33;
+            padding: 40px 30px;
+            border-radius: 15px;
+            border: 1px solid #007bff;
+            box-shadow: 0 0 25px rgba(0, 123, 255, 0.15);
+            text-align: center;
+        }
+        .about-card h2 {
+            color: #007bff;
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+        .description {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #d6deeb;
+            margin-bottom: 30px;
+        }
+        .verse {
+            background: #0b1120;
+            border: 1px solid #28a745;
+            border-radius: 12px;
+            padding: 25px 15px;
+            margin-top: 25px;
+        }
+        .quran-title {
+            color: #28a745;
+            font-size: 20px;
+            margin-bottom: 20px;
+            direction: rtl;
+        }
+        .arabic {
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 2;
+            font-family: "Traditional Arabic", "Amiri", serif;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .back-button:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+        footer {
+            background: #111c33;
+            text-align: center;
+            padding: 18px;
+            color: #aab6cc;
+            border-top: 1px solid #22314d;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 23px;
+            }
+            nav a {
+                display: inline-block;
+                margin: 8px;
+                font-size: 14px;
+            }
+            .about-card {
+                padding: 30px 18px;
+            }
+            .about-card h2 {
+                font-size: 27px;
+            }
+            .description {
+                font-size: 16px;
+            }
+            .arabic {
+                font-size: 25px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="about.html">À propos</a>
-    
-  </nav>
-
-  <div class="container">
-    <h1>À propos de moi</h1>
-    <p>Je suis ZAKARIAE BOUDOUMA, étudiant de 2éme année en Cyber sécurité . Finalement (FISKA BARCA) .Suivez-moi pour en savoir plus !</p>
-  </div>
-
-  
-    </div>
-  </footer>
+    <header>
+        <h1>Zakariae Boudouma</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+        </nav>
+    </header>
+    <main>
+        <section class="about-card">
+            <h2>À propos de moi</h2>
+            <p class="description">
+                Je suis étudiant en cybersécurité, passionné par
+                l'informatique, les réseaux et la sécurité des systèmes.
+            </p>
+            <div class="verse">
+                <p class="quran-title" lang="ar" dir="rtl">
+                    قال الله تعالى:
+                </p>
+                <p class="arabic" lang="ar" dir="rtl">
+                    ﴿ وَقُل رَّبِّ زِدْنِي عِلْمًا ﴾
+                </p>
+            </div>
+            <a href="index.html" class="back-button">
+                Retour à l'accueil
+            </a>
+        </section>
+    </main>
+    <footer>
+        &copy; Zakariae Boudouma
+    </footer>
 </body>
 </html>
