@@ -213,20 +213,20 @@ body {
 }
 
 /* Background Video Styling */
-#bg-video {
+#bg-image {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  z-index: -1;
-  opacity: 0.2;
+  z-index: -1; 
 }
 
 
-#bg-video {
-  opacity: 0.5; /* وضوح أكثر */
+.profile {
+  position: relative;
+  z-index: 1;/* وضوح أكثر */
 }
 
 /* تأثير دخول ناعم للعناوين */
