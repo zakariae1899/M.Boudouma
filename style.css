@@ -125,27 +125,51 @@ footer {
 }
 
 .green {
-  background-color: #28a745;
+    background-color: #28a745;
 }
 
 .green:hover {
-  background-color: #218838;
+    background-color: #218838;
 }
 
 .pink {
-  background-color: #e83e8c;
+    background-color: #e83e8c;
 }
 
 .pink:hover {
-  background-color: #c82373;
+    background-color: #c82373;
 }
 
 .blue {
-  background-color: #007bff;
+    background-color: #007bff;
 }
 
 .blue:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.black:hover {
+    background-color: #333333;
+}
+
+.red {
+    background-color: #333333;
+}
+
+.red:hover {
+    background-color: #222222;
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+
+.telegram:hover {
+    background-color: #006699;
 }
 
 /* Profile image styling */
